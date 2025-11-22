@@ -11,35 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 
     <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              bg: '#FFFFFF',
-              surface: '#F3F3F3',
-              text: '#0B0B0B',
-              muted: '#757575',
-              dark: '#0E0E0E',
-            },
-            fontFamily: {
-              serif: ['"Playfair Display"', 'serif'],
-              sans: ['"Inter"', 'system-ui', 'sans-serif'],
-            },
-            spacing: {
-              '18': '4.5rem',
-              '22': '5.5rem',
-              '30': '7.5rem',
-            },
-            animation: {
-              'spin-slow': 'spin 10s linear infinite',
-            }
-          }
-        }
-      }
-    </script>
-
     <style>
       /* Custom Scrollbar for a cleaner look */
       ::-webkit-scrollbar {
@@ -96,5 +67,6 @@
 </head>
   <body class="bg-bg text-text font-sans antialiased selection:bg-dark selection:text-white overflow-x-hidden">
     <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
